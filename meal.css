@@ -1,0 +1,107 @@
+
+
+body{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body input{
+    padding: 10px 15px;
+}
+.stepContainer{
+    margin: 20px;
+   display: flex;
+   flex-direction: row;
+    box-shadow: .1rem .1rem 1rem black;
+}
+.stepContainer div{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 200px;
+    height: min-content;
+    padding: 5px 15px;
+    border: 2px solid gray;
+}
+.firstpage,.secondpage{
+    height: 70vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.firstpage>select,.secondpage>select,.firstpage>input,.firstpage>button{
+    width: 50%;
+    margin: 20px;
+}
+.btnsection{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.btnsection>button{
+    font-size: 3rem;
+}
+
+#dishcollection{
+    display: flex;
+    align-items: center;
+}
+.itemsshow{
+    display: flex;
+    align-items: center;
+    background: lightblue;
+    margin: 10px 5px;
+    padding: 5px;
+   border-radius: 10px;
+
+}
+.itemsshow>small{
+    font-size: 3rem;
+    padding: 0 5px;
+}
+#dishcollection>p>small:hover{
+    font-size: 2.5rem;
+}
+
+#dishadd{
+    display: flex;
+    align-items: center;
+}
+.err{
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.select{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+
+}
+.show{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+
+}
+.show>h1{
+    font-size:2rem;
+}
+.show>.update>h3{
+    margin: 0 5px;
+  font-size: 2rem;
+  padding: 5px;
+}
+
+.show>.update{
+display: inline-flex;
+
+}
+.update>h3{
+    margin: 0 5px;
+}
